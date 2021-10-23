@@ -157,3 +157,191 @@ cd master-kschool30
 sudo apt instal gedit
 cp /home/dsc/.history
 cp /home/dsc/.history .
+ll -a
+git status
+git add .history
+git status
+git commit
+git push
+cd
+clear
+cat .history
+less .history
+less -N .history
+sudo apt instal gedit
+sudo apt install gedit
+less -N .history
+q
+Q
+q
+less -N .history
+man
+man bash
+man git
+clear
+cd data/opentraveldata
+ll
+head optd_aircraft.csv
+head -n 30 optd_aircraft.csv
+head -30 optd_aircraft.csv
+head -n -30 optd_aircraft.csv
+cat -n
+head -n -450 optd_aircraft.csv
+head  -450 optd_aircraft.csv
+tail optd_aircraft.csv
+tail -3 optd_aircraft.csv
+tail -n +3 optd_aircraft.csv
+wc
+clear
+wc optd_aircraft.csv
+wc -l optd_aircraft.csv
+wc -w optd_aircraft.csv
+wc -, optd_aircraft.csv
+wc m optd_aircraft.csv
+wc -m optd_aircraft.csv
+wc -c optd_aircraft.csv
+tail -n +3 optd_aircraft.csv
+echo "How much words do I have"
+echo "How much words do I have" | wc -w
+echo "How much words do I have" | wc | wc -w
+echo "How much words do I have" | wc 
+echo "How much words do I have" | wc | wc -w
+cat optd_aircraft.csv | wc
+wc optd_aircraft.csv
+head optd_aircraft.csv | wc
+cat -n optd_aircraft.csv  
+cat -n optd_aircraft.csv  | head
+cat -n optd_aircraft.csv  | head >first_10_lines.txt
+cat first_10_lines.txt
+head optd_aircraft.csv optd_airlines.csv
+%ll
+ll
+rm first
+cat first_10_lines.txt
+cat -n optd_aircraft.csv  | tail >>first_10_lines.txt
+cat first_10_lines.txt
+cat -n optd_aircraft.csv 
+cat -n optd_aircraft.csv | head 
+cat -n optd_aircraft.csv | head | tail -1
+cat -n optd_aircraft.csv | head | tail -1 > linea_num_10.txt
+cat -n linea_num_10.txt
+echo "This is the 10th line" >> linea_num_10.txt
+cat -n linea_num_10.txt
+cat  linea_num_10.txt
+echo "$(date)"
+echo "Timestamp: $(date)"
+echo "Timestamp: $(date)" >> linea_num_10.txt
+cat linea_num_10.txt
+wc -l < linea_num_10.txt
+ls
+ls sort 
+ls 
+ls optd_aircraft.csv
+ls
+sort ls
+ls | wc
+ls
+wc optd_aircraft.csv
+ls | wc
+wc list
+wc ls
+ls -m
+ls -w
+ls --m
+ls -m
+ls
+cd ..
+cd shell
+cd Finn.txt
+ls
+Finn.txt | wc
+wc Finn.txt
+cd ..
+cd opentraveldata
+ll
+type ll
+ls -l
+ls -lS
+ls -lS | head -3
+ls -S | head -3
+ls -lS | head -3 | tail -3
+ls -lS | head -4 | tail -3
+ls -lS | head -2 | tail -1 > largest_file.txt
+car largest_file.txt
+cad  largest_file.txt
+cat  largest_file.txt
+cd -0
+ cd ..
+cd ../shell
+cd data
+cd shell
+head -5 Finn.txt | wc - w
+head -5 Finn.txt | wc -w
+clear
+seq 10
+seq 1 2 10
+seq 1 2 10 > uniq_example.txt
+seq 1 10 >> uniq_example.txt
+cat uniq_example.txt
+uniq uniq_example.txt
+cat uniq_example.txt | uniq
+sort uniq_example.txt
+sort -n uniq_example.txt
+sort -n uniq_example.txt | uniq
+sort -nr uniq_example.txt | uniq
+sort -n uniq_example.txt
+sort -nu uniq_example.txt
+sort -n uniq_example.txt | uniq -c
+sort -n uniq_example.txt | uniq -d
+cd -
+ll
+cd opentraveldata
+sort -t "^" -k 6r,6 optd_aircraft.csv | head
+head optd_aircraft.csv
+sort -t "^" -k 2,2  -u optd_aircraft.csv
+sort -t "^" -k 2,2  -u optd_aircraft.csv | wc
+sort -t "^" -k 2  -u optd_aircraft.csv | wc
+optd_aircraft.csv | wc
+wc optd_aircraft.csv 
+clear
+optd_aircraft.csv
+cad optd_aircraft.csv
+cat optd_aircraft.csv
+sort -t "^" -k 7,7  optd_aircraft.csv | head 1
+sort -t "^" -k 7,7  optd_aircraft.csv | head
+sort -t "^" -k 7r,7  optd_aircraft.csv | head
+sort -t "^" -k 7r,7  optd_aircraft.csv | head -1
+sort -t "^" -k 7r,7  optd_aircraft.csv | head -2
+sort -t "^" -k 7r,7  optd_aircraft.csv | head -2 | tail -1
+sort -t "^" -k 7r,7  -l optd_aircraft.csv | head -2 | tail -1
+sort -t "^" -k 7r,7  optd_aircraft.csv | head -2 | tail -1
+cat -l optd_aircraft.csv
+sort -t "^" -k 7r,7  optd_aircraft.csv | head -2 | tail -1
+sort -t "^" -k 7rn,7  optd_aircraft.csv | head -2 | tail -1
+sort -t "^" -k 7rn,7  optd_aircraft.csv | head -2 
+sort -t "^" -k 7rn,7  optd_aircraft.csv | head -1
+clear
+cut -d "^" -f 1,3,5 optd_aircraft.csv | head
+cut -d "^" -f 1,3,5 optd_aircraft.csv | head -5
+head optd_aircraft.csv
+cut -d "^" -f 3 optd_aircraft.csv | head -5
+cut -d "^" -f 3 optd_aircraft.csv | sort | uniq | wc
+cut -d "^" -f 2 optd_aircraft.csv | sort | uniq | wc
+cut -d "^" -f 2 optd_aircraft.csv | sort | uniq | wc -l
+cut -d "^" -f 1,8 --output-delimiter="," optd_aircraft.csv | head
+cut -d "^" -f 1-8 --output-delimiter="," optd_aircraft.csv>optd_aircraft_del_nuevo.csv
+head optd_aircraft_del_nuevo.csv
+echo "master data science" | tr a A
+echo "master data science" | tr ai ia
+echo "master        data        science" | tr -s " "
+echo "master        data        science" | tr -d " "
+head -1 optd_por_public.csv
+head -1 optd_por_public.csv |  tr "^" "\n"
+head -1 optd_por_public.csv |  tr "^" "\n" | -c
+head -1 optd_por_public.csv |  tr "^" "\n" 
+head -1 optd_por_public.csv |  tr "^" "\n" | wc
+head -1 optd_por_public.csv |  tr "^" "\n" | wc -l
+clear
+cd repos/master-kschool30
+git status
+cp ~/.history .
