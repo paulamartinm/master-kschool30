@@ -1,0 +1,159 @@
+echo hola
+echo $SHELL
+echo $TERM
+date
+echo date
+echo $date
+echo $HISTORY
+echo $variablenodefinida
+variable1=hola
+echo $variable1
+echo $(date)
+echo "Hoy es el dia $(date)"
+whoami
+echo 'Soy feliz\
+hola'
+;
+echo "hola\
+adios"
+"Hola \\
+adios"
+echo "\"\
+"
+echo "Me gusta mucho \100 años de soledad \", "
+echo "Me gusta mucho \"100 años de soledad \", "
+echo "uno\tdos"
+echo "uno\ndos"
+echo "C:\\\Users"
+echo 'hola';date
+echo 'hola' \n date
+echo "holi \n"; date
+clear
+cat /etc/os-release
+clear
+cat /etc/os-release
+pwd
+ls
+cat data/README.md
+cat data/shell/Text_example.txt
+cat /etc/os-release
+cat data/shell/Text_example.txt
+pwc
+pwd
+cd data\shell
+cd data /shell
+cd data/shell
+ls
+cat Text_example.txt
+cd ~
+cd data
+cat shell/Text_example.txt
+cd ~
+cd data
+cd shell
+cd..
+cd //
+cd ..
+cd ~
+clear
+ls
+ls -a
+ls -l
+chmod 777 books
+ls -l
+chmod 700 books
+ls - l
+ls-l
+ls -l
+chmod 770 books
+ls -l
+chmod 705
+chmod 755 books
+ls -l
+ls -a
+ls -al
+ls -t
+ls -tl
+ls - S
+ls -S
+ls Downloads
+clear
+mkdir
+clear
+mkdir midirectorio
+touch midirectorio/nuevo_archivo
+ls -l midirectorio
+mkdir midirectorio/dir2/dir3
+mkdir -p midirectorio/dir2/dir3
+ls midirectorio/dir2
+ls --help
+mkdir --help
+cp data /shell/Text_example.txt nuevoejemplo.txt
+ls
+cp data/Shell/
+rm midirectorio
+cp -r midirectorio
+clear
+ls
+mkdir -p dir1/dir2/dir3
+mv test dir1/dir2/dir3
+mkdir first_dir
+cd first_dir
+touch text_file.txt
+chmode
+cd..
+cd ..
+chmode 712 text_file.txt
+chmod 712 text_file.txt
+cd first_dir
+chmod712 text_file.txt
+chmod 712 text_file.txt
+mkdir -p first_dir/sub1/sub2/text_file
+cp text_file.txt sub1
+mv text_file.txt sub2
+cp sub1 sub3
+mv text_file.txt sub2
+clear
+mkdir first_dir
+touch first/dir/text_file.txt
+touch first_dir/text_file.txt
+ls -l first_dir
+chmod 676 first_dir/text_file.txt
+ls -l
+mkdir/first_dir/sub:1
+mkdir first_dir/sub_1
+cp first_dir/text_file.txt first_dir/sub1
+mv first_dir/text_file.txt first_dir/sub_2/text_file.txt.2
+cp -r first_dir/sub1 first_dir/sub_3
+ls first_dir
+mv first_dir/sub_2/text_file.txt.2 first_dir/sub_2/text_file.txt.backup
+ls first_dir
+clear
+mkdir repos
+cd ..
+mkdir repos
+cd repos
+git config -- global user.name "Paula Martin"
+git config -- global user.email paula.martin@ks
+git clone https://github.com/paulamartinm/master-kschool30.git
+%ls
+ls
+cd master-kschool30
+ls
+cat README.md
+git dif
+git diff
+git add README.md
+git status
+git commit
+git config --global user.email "paulammoreno96@gmail.com"
+git config --global user.name "Paula Martin"
+git commit
+git push 
+git push
+dc repos
+cd repos
+cd master-kschool30
+sudo apt instal gedit
+cp /home/dsc/.history
+cp /home/dsc/.history .
